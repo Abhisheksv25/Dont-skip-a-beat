@@ -1,0 +1,282 @@
+{
+  "integrity_all_records_ok": true,
+  "beat_totals_match_documentation": true,
+  "beat_total_mismatches": {},
+  "fs": [
+    360.0
+  ],
+  "n_samples": [
+    650000
+  ],
+  "duration_min": 30.092592592592595,
+  "records_without_MLII": [
+    102,
+    104
+  ],
+  "records_MLII_not_first": [
+    114
+  ],
+  "second_leads": {
+    "V5": 3,
+    "V1": 38,
+    "V2": 2,
+    "V4": 1
+  },
+  "n_beat_annotations_all48": 109966,
+  "symbol_counts_all48": {
+    "N": 75052,
+    "L": 8075,
+    "R": 7259,
+    "V": 7130,
+    "/": 7028,
+    "A": 2546,
+    "+": 1291,
+    "f": 982,
+    "F": 803,
+    "~": 616,
+    "!": 472,
+    "\"": 437,
+    "j": 229,
+    "x": 193,
+    "a": 150,
+    "|": 132,
+    "E": 106,
+    "J": 83,
+    "Q": 33,
+    "e": 16,
+    "[": 6,
+    "]": 6,
+    "S": 2
+  },
+  "splits": {
+    "DS1": {
+      "counts": {
+        "N": 45866,
+        "S": 944,
+        "V": 3788,
+        "F": 415,
+        "Q": 8
+      },
+      "total": 51021,
+      "pct": {
+        "N": 89.89631720272045,
+        "S": 1.8502185374649653,
+        "V": 7.424393877031027,
+        "F": 0.8133905646694498,
+        "Q": 0.015679818114109876
+      },
+      "concentration": {
+        "S": {
+          "top_record": 209,
+          "top_share_pct": 40.57203389830509,
+          "top3_share_pct": 65.46610169491525,
+          "n_records_with_any": 16,
+          "n_records_with_10plus": 8
+        },
+        "V": {
+          "top_record": 208,
+          "top_share_pct": 26.18796198521647,
+          "top3_share_pct": 52.402323125659976,
+          "n_records_with_any": 17,
+          "n_records_with_10plus": 15
+        },
+        "F": {
+          "top_record": 208,
+          "top_share_pct": 89.87951807228916,
+          "top3_share_pct": 95.90361445783132,
+          "n_records_with_any": 10,
+          "n_records_with_10plus": 3
+        }
+      }
+    },
+    "DS2": {
+      "counts": {
+        "N": 44259,
+        "S": 1837,
+        "V": 3221,
+        "F": 388,
+        "Q": 7
+      },
+      "total": 49712,
+      "pct": {
+        "N": 89.03081750885099,
+        "S": 3.6952848406823304,
+        "V": 6.479320888316704,
+        "F": 0.7804956549726424,
+        "Q": 0.014081107177341488
+      },
+      "concentration": {
+        "S": {
+          "top_record": 232,
+          "top_share_pct": 75.23135547087642,
+          "top3_share_pct": 89.60261295590637,
+          "n_records_with_any": 16,
+          "n_records_with_10plus": 8
+        },
+        "V": {
+          "top_record": 233,
+          "top_share_pct": 25.799441167339335,
+          "top3_share_pct": 63.73796957466625,
+          "n_records_with_any": 16,
+          "n_records_with_10plus": 10
+        },
+        "F": {
+          "top_record": 213,
+          "top_share_pct": 93.29896907216495,
+          "top3_share_pct": 98.71134020618557,
+          "n_records_with_any": 7,
+          "n_records_with_10plus": 3
+        }
+      }
+    }
+  },
+  "imbalance_ratio_N_to_F_DS1": 110.52048192771085,
+  "random_budget_for_10_examples": {
+    "S": 541,
+    "V": 135,
+    "F": 1230
+  },
+  "expected_in_500_random": {
+    "S": 9.251092687324826,
+    "V": 37.12196938515513,
+    "F": 4.06695282334725
+  },
+  "budget_40pct_DS1": 20408,
+  "n_extracted_DS1": 50977,
+  "n_extracted_DS2": 49668,
+  "window_samples": 256,
+  "window_sec": 0.7111111111111111,
+  "rr_DS1": {
+    "N": {
+      "rr_ratio_median": 1.0020130855627216,
+      "rr_ratio_iqr": [
+        0.9759640655909503,
+        1.0342896292262092
+      ],
+      "rr_pre_median_s": 0.7555555555555555,
+      "frac_rr_ratio_below_0.9": 0.039586243016759774,
+      "rr_ratio_long_median": 1.0053404634581105,
+      "frac_rr_ratio_long_below_0.9": 0.05488390363128492
+    },
+    "S": {
+      "rr_ratio_median": 0.7985757884028485,
+      "rr_ratio_iqr": [
+        0.6939578005344301,
+        0.9647372785416355
+      ],
+      "rr_pre_median_s": 0.49444444444444446,
+      "frac_rr_ratio_below_0.9": 0.6500530222693531,
+      "rr_ratio_long_median": 0.6920000000000001,
+      "frac_rr_ratio_long_below_0.9": 0.8515376458112407
+    },
+    "V": {
+      "rr_ratio_median": 0.7215042286976536,
+      "rr_ratio_iqr": [
+        0.6112722096810045,
+        0.8375204843408595
+      ],
+      "rr_pre_median_s": 0.5194444444444445,
+      "frac_rr_ratio_below_0.9": 0.8574445617740233,
+      "rr_ratio_long_median": 0.7309163928441037,
+      "frac_rr_ratio_long_below_0.9": 0.7917106652587117
+    },
+    "F": {
+      "rr_ratio_median": 0.948031881446495,
+      "rr_ratio_iqr": [
+        0.9112089123242739,
+        0.9900046311428775
+      ],
+      "rr_pre_median_s": 0.5861111111111111,
+      "frac_rr_ratio_below_0.9": 0.178743961352657,
+      "rr_ratio_long_median": 1.004914034579349,
+      "frac_rr_ratio_long_below_0.9": 0.036231884057971016
+    }
+  },
+  "F_context": {
+    "median_rr_post_s": 0.4638888888888889,
+    "frac_rr_post_below_0.46s": 0.45410628019323673,
+    "N_median_rr_post_s": 0.7361111111111112
+  },
+  "S_not_premature_local": {
+    "frac_of_S": 0.34994697773064687,
+    "frac_following_S": 0.9121212121212121,
+    "frac_premature_vs_long_baseline": 0.6303030303030303
+  },
+  "median_heart_rate_bpm_range_over_records": [
+    50.11600928074246,
+    112.5
+  ],
+  "strip": {
+    "record": 223,
+    "start_s": 1507.0,
+    "classes": [
+      "F",
+      "N",
+      "S",
+      "V"
+    ]
+  },
+  "pca_components_for": {
+    "80": 5,
+    "90": 8,
+    "95": 12,
+    "99": 23
+  },
+  "pca_cev_first10": [
+    0.387811541557312,
+    0.6121834516525269,
+    0.7148622274398804,
+    0.784095823764801,
+    0.8335304260253906,
+    0.8607689738273621,
+    0.884716272354126,
+    0.907710075378418,
+    0.9225229024887085,
+    0.9354016184806824
+  ],
+  "tsne_points": {
+    "N": 3000,
+    "S": 943,
+    "V": 1500,
+    "F": 414
+  },
+  "neighbour_purity_pca30": {
+    "same_patient": 0.9351374423766434,
+    "same_class": 0.9340447327983609,
+    "same_patient_S": 0.9080593849416755,
+    "same_class_S": 0.8414634146341463,
+    "chance_same_patient": 0.06441534740872824,
+    "chance_same_class": 0.35886438519971564
+  },
+  "patient_id_from_normal_beat": {
+    "accuracy_mean": 0.99045,
+    "accuracy_sd": 0.0006595452979136541,
+    "n_patients": 22,
+    "chance_majority": 0.0721,
+    "chance_uniform": 0.045454545454545456,
+    "n_beats": 20000
+  },
+  "leakage_check_1nn": {
+    "random_beat_split": {
+      "macro_f1": 0.9022162604998871,
+      "sens_N": 0.9952244508118434,
+      "sens_S": 0.884809215262779,
+      "sens_V": 0.958904109589041,
+      "sens_F": 0.7281795511221946
+    },
+    "patient_split_DS1_to_DS2": {
+      "macro_f1": 0.3971405732632947,
+      "sens_N": 0.8546067212447419,
+      "sens_S": 0.07080610021786492,
+      "sens_V": 0.818887853370612,
+      "sens_F": 0.07474226804123711
+    },
+    "patient_split_S_breakdown": {
+      "missed_S_called_N": 0.9519343493552169,
+      "top_record": 232,
+      "sens_S_top_record": 0.01955104996379435,
+      "sens_S_other_records": 0.22637362637362637
+    }
+  },
+  "runtime_s": 26.827874183654785
+}
